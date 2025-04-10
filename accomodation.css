@@ -1,0 +1,126 @@
+
+
+.accommodations-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container {
+    width: 792px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.accommodations-title {
+    font-size: 24px;
+    text color: #45443F;
+    margin-bottom: 20px;
+    font-weight: Regular (400);
+    font-family: Cinzel, "Palatino Linotype", sans-s;
+    font-size: 49.6128px;
+    line-height: 59.5354px;
+    letter-spacing: -2.48064px;
+}
+
+.accommodation-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+}
+
+.room-name {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.slides {
+    display: none;
+    animation: fade 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 792px;
+    height: 461px;
+    border-radius: 0px;
+    vertical-align: middle;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+/* Navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Dots/bullets/indicators */
+.dots-container {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.active, .dot:hover {
+    background-color: #1e4d2b;
+}
+
+.room button {
+    background-color: #ad8b3a;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.room button:hover {
+    background-color: #c8a74d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

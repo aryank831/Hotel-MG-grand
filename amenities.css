@@ -1,0 +1,62 @@
+.amenities-section {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.amenities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.amenity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e4d2b;
+}
+.amenities-title {
+    font-size: 24px;
+    text color: #45443F;
+    margin-bottom: 20px;
+    font-weight: Regular (400);
+    font-family: Cinzel, "Palatino Linotype", sans-s;
+    font-size: 49.6128px;
+    line-height: 59.5354px;
+    letter-spacing: -2.48064px;
+}
+
+.amenity i {
+    font-size: 24px;  /* Adjust icon size */
+}
+
+.view-all {
+    margin-top: 20px;
+}
+
+.view-all a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e4d2b;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.view-all i {
+    font-size: 14px;
+}
+
+.view-all a:hover {
+    text-decoration: underline;
+}
