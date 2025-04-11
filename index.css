@@ -533,7 +533,7 @@ body {
 
 /* Change Background on Hover */
 .faq-question:hover {
-    background-color: rgba(0, 53, 128, 0.05);
+    background-color: rgba(54, 89, 138, 0.05);
 }
 
 /* FAQ Icon */
@@ -568,6 +568,9 @@ body {
 .faq-item.active .faq-answer {
     max-height: 300px;
     padding-top: 10px;
+}
+.fas-answer {
+    background-color: white;
 }
 
 /* Section Footer */
@@ -751,6 +754,5 @@ body {
     padding-top: 20px; /* Padding for top space */
     border-top: 1px solid #333; /* Divider line above the copyright */
 }
-
 
 
