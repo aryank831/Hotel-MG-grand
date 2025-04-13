@@ -61,7 +61,7 @@ body {
 .navbar-container {
     border-top: 1px solid #ad8b3a; /* Thin golden line above navbar */
     border-bottom: 1px solid #ad8b3a; /* Thin golden line below navbar */
-    background-color: white;
+    background-color: #1e4d2b;
 }
 
 .navbar {
@@ -92,7 +92,10 @@ body {
     text-decoration: underline;
     color: #c8a74d;
 }
-
+.nav-button a:hover {
+    text-decoration: underline;
+    color: #c8a74d;
+}
 /* Contact Us Button - Right Side */
 .contact-us {
     position: absolute;
