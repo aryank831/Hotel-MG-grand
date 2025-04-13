@@ -1,0 +1,175 @@
+/* ========================================== */
+/* RESPONSIVE ADDITIONS (NO EXISTING STYLES MODIFIED) */
+/* ========================================== */
+
+/* Base responsive settings */
+@media screen and (max-width: 1200px) {
+    .main-content {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* Header adjustments */
+    .header {
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+    
+    .logo-container {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .text-container {
+        width: 100%;
+    }
+    
+    .contact-us {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    /* Navbar adjustments */
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-links li {
+        margin: 5px 10px;
+    }
+    
+    /* Content adjustments */
+    .location-container {
+        flex-direction: column;
+    }
+    
+    .map-section, 
+    .contact-section {
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    .highlights-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Typography adjustments */
+    .rating-heading,
+    .welcome-title,
+    .map-title,
+    .contact-title,
+    .highlights-title,
+    .photos-title {
+        font-size: 2rem;
+        line-height: 1.3;
+        letter-spacing: -1px;
+    }
+    
+    /* Image slider adjustments */
+    .image-slider {
+        height: auto;
+        min-height: 300px;
+    }
+    
+    /* Photo grid adjustments */
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* FAQ adjustments */
+    .faq-question {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* Header adjustments */
+    .logo-text {
+        font-size: 28px;
+    }
+    
+    .byline {
+        font-size: 12px;
+    }
+    
+    /* Navbar adjustments */
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-links li {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* Content adjustments */
+    .highlights-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Footer adjustments */
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-column {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile-specific fixes */
+@media screen and (max-width: 480px) {
+    /* Ensure tap targets are large enough */
+    a, button, .nav-button {
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Prevent horizontal scrolling */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    /* Image slider arrows */
+    .prev, .next {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .header, .navbar-container, .contact-us, .view-all, .view-more {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        color: black;
+        font-size: 12pt;
+    }
+    
+    .main-content {
+        padding: 0;
+        margin: 0;
+    }
+}
