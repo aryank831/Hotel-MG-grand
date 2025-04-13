@@ -88,6 +88,10 @@ body {
     letter-spacing: 0.528px;
     line-height: 22px;
 }
+.nav-button a:hover {
+    text-decoration: underline;
+    color: #c8a74d;
+}
 
 /* Contact Us Button - Right Side */
 .contact-us {
@@ -578,25 +582,6 @@ body {
     margin-top: 40px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .faq-container {
-        max-width: 100%;
-    }
-
-    .faq-question {
-        font-size: 1rem;
-        padding: 16px 20px;
-    }
-
-    .faq-answer p {
-        font-size: 0.95rem;
-    }
-
-    .section-header {
-        margin-bottom: 30px;
-    }
-}
 /* FAQ Question */
 .faq-question {
     width: 100%;
