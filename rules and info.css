@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styling */
+.header {
+    background-color: white;
+    color: #ad8b3a;
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.logo-container {
+    position: static;
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 60px;
+    height: auto;
+}
+
+.text-container {
+    flex-grow: 1;
+}
+
+.logo-text {
+    font-size: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-family: Cinzel, "Palatino Linotype", sans-s;
+}
+
+.byline {
+    font-size: 14px;
+    margin-top: 5px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.contact-us {
+    position: static;
+    margin-top: 10px;
+}
+
+.contact-us a {
+    background-color: #ad8b3a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-us a:hover {
+    background-color: #c8a74d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar-container {
+    border-top: 1px solid #ad8b3a;
+    border-bottom: 1px solid #ad8b3a;
+    background-color: #1e4d2b;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #ad8b3a;
+    text-decoration: none;
+    font-size: 17.6px;
+    letter-spacing: 0.528px;
+    line-height: 22px;
+}
+.nav-button a:hover {
+    text-decoration: underline;
+    color: #c8a74d;
+}
+
+/* Rating Section */
+.rating-section {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin: 30px auto;
+}
+
+.rating-heading {
+    font-size: 49.6px;
+    font-family: Cinzel, "Palatino Linotype", sans-s;
+    line-height: 59.5px;
+    letter-spacing: -2.48px;
+    margin-bottom: 20px;
+    color: #45443f;
+}
+
+.rating-stars {
+    font-size: 15px;
+    line-height: 15px;
+    color: #ad8b3a;
+    margin-bottom: 8px;
+    letter-spacing: 5px;
+}
+
+.rating-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #0a1e14;
+    margin-bottom: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-title {
+    font-size: 24px;
+    text color: #45443F;
+    margin-bottom: 20px;
+    font-weight: Regular (400);
+    font-family: Cinzel, "Palatino Linotype", sans-s;
+    font-size: 49.6128px;
+    line-height: 59.5354px;
+    letter-spacing: -2.48064px;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    color: #ffb700;
+    margin: 15px 0 5px 0;
+    font-weight: bold;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 27px;
+    color: #444;
+    font-weight: semi bold (600);
+    margin-bottom: 10px;
+    letter-spacing: normal;
+}
+
+.contact-divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: #ad8b3a;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.subscribe-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subscribe-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 12px 15px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+}
+
+.subscribe-form button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: #333;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-column {
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background-color: #555;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .contact-section {
+        flex-direction: row;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .subscribe-section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .subscribe-form {
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+    }
+}
