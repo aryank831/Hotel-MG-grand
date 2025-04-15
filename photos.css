@@ -32,13 +32,13 @@ body {
 }
 
 .logo-container {
-    position: static;
-    margin-bottom: 10px;
+    position: absolute;
+    left: 20px;
 }
 
 .logo-img {
-    width: 60px;
-    height: auto;
+    width: 150px;
+    height: 100px;
 }
 
 .text-container {
