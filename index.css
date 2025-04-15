@@ -668,7 +668,9 @@ body {
     margin-bottom: 5px;
     line-height: 1.4;
 }
-
+.cont-info {
+    color: white;
+}
 .footer-divider {
     height: 1px;
     background-color: #333;
