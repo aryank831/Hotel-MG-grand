@@ -32,8 +32,8 @@ body {
 }
 
 .logo-container {
-    position: static;
-    margin-bottom: 10px;
+    position: absolute;
+    left: 20px;
 }
 
 .logo-img {
